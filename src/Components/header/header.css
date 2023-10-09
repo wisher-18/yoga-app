@@ -1,0 +1,32 @@
+.header{
+    position: relative;
+}
+.header img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.Header_Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #17f107;
+    opacity: 0.09;
+}
+.Header_Content{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.Header_Content h6{
+    font-size: 80px;
+    font-weight: 600;
+}
+.Header_Content p{
+    font-size: 15px;
+    margin: 15px auto;
+}
